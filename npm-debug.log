@@ -1,0 +1,108 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   '­­save­dev',
+1 verbose cli   'gulp',
+1 verbose cli   'browser­sync' ]
+2 info using npm@3.3.12
+3 info using node@v5.1.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData ­­save­dev
+8 silly fetchPackageMetaData gulp@^3.9.0
+9 silly fetchPackageMetaData browser­sync
+10 silly fetchNamedPackageData gulp
+11 silly mapToRegistry name gulp
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/gulp
+15 silly fetchOtherPackageData ­­save­dev
+16 silly cache add args [ '­­save­dev', null ]
+17 verbose cache add spec ­­save­dev
+18 silly fetchOtherPackageData browser­sync
+19 silly cache add args [ 'browser­sync', null ]
+20 verbose cache add spec browser­sync
+21 silly cache add parsed spec Result {
+21 silly cache add   raw: '­­save­dev',
+21 silly cache add   scope: null,
+21 silly cache add   name: null,
+21 silly cache add   rawSpec: '­­save­dev',
+21 silly cache add   spec: 'E:\\wfl1\\­­save­dev',
+21 silly cache add   type: 'local' }
+22 silly cache add parsed spec Result {
+22 silly cache add   raw: 'browser­sync',
+22 silly cache add   scope: null,
+22 silly cache add   name: null,
+22 silly cache add   rawSpec: 'browser­sync',
+22 silly cache add   spec: 'E:\\wfl1\\browser­sync',
+22 silly cache add   type: 'local' }
+23 error addLocal Could not install E:\wfl1\­­save­dev
+24 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open 'E:\wfl1\­­save­dev'
+24 silly fetchPackageMetaData     at Error (native)
+24 silly fetchPackageMetaData  error for ­­save­dev { [Error: ENOENT: no such file or directory, open 'E:\wfl1\­­save­dev']
+24 silly fetchPackageMetaData   errno: -4058,
+24 silly fetchPackageMetaData   code: 'ENOENT',
+24 silly fetchPackageMetaData   syscall: 'open',
+24 silly fetchPackageMetaData   path: 'E:\\wfl1\\­­save­dev' }
+25 error addLocal Could not install E:\wfl1\browser­sync
+26 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open 'E:\wfl1\browser­sync'
+26 silly fetchPackageMetaData     at Error (native)
+26 silly fetchPackageMetaData  error for browser­sync { [Error: ENOENT: no such file or directory, open 'E:\wfl1\browser­sync']
+26 silly fetchPackageMetaData   errno: -4058,
+26 silly fetchPackageMetaData   code: 'ENOENT',
+26 silly fetchPackageMetaData   syscall: 'open',
+26 silly fetchPackageMetaData   path: 'E:\\wfl1\\browser­sync' }
+27 verbose request uri https://registry.npmjs.org/gulp
+28 verbose request no auth needed
+29 info attempt registry request try #1 at 15:03:03
+30 verbose request id c2465f0faf1032fa
+31 verbose etag "97RVWCC6L976MUG1GH3HRB1P0"
+32 http request GET https://registry.npmjs.org/gulp
+33 http 304 https://registry.npmjs.org/gulp
+34 verbose headers { date: 'Mon, 23 Nov 2015 09:02:18 GMT',
+34 verbose headers   via: '1.1 varnish',
+34 verbose headers   'cache-control': 'max-age=60',
+34 verbose headers   etag: '"97RVWCC6L976MUG1GH3HRB1P0"',
+34 verbose headers   age: '18',
+34 verbose headers   connection: 'keep-alive',
+34 verbose headers   'x-served-by': 'cache-fra1242-FRA',
+34 verbose headers   'x-cache': 'HIT',
+34 verbose headers   'x-cache-hits': '1',
+34 verbose headers   'x-timer': 'S1448269338.574914,VS0,VE0',
+34 verbose headers   vary: 'Accept' }
+35 silly get cb [ 304,
+35 silly get   { date: 'Mon, 23 Nov 2015 09:02:18 GMT',
+35 silly get     via: '1.1 varnish',
+35 silly get     'cache-control': 'max-age=60',
+35 silly get     etag: '"97RVWCC6L976MUG1GH3HRB1P0"',
+35 silly get     age: '18',
+35 silly get     connection: 'keep-alive',
+35 silly get     'x-served-by': 'cache-fra1242-FRA',
+35 silly get     'x-cache': 'HIT',
+35 silly get     'x-cache-hits': '1',
+35 silly get     'x-timer': 'S1448269338.574914,VS0,VE0',
+35 silly get     vary: 'Accept' } ]
+36 verbose etag https://registry.npmjs.org/gulp from cache
+37 verbose get saving gulp to C:\Users\Дима\AppData\Roaming\npm-cache\registry.npmjs.org\gulp\.cache.json
+38 silly rollbackFailedOptional Starting
+39 silly rollbackFailedOptional Finishing
+40 silly runTopLevelLifecycles Starting
+41 silly runTopLevelLifecycles Finishing
+42 silly install printInstalled
+43 verbose stack Error: ENOENT: no such file or directory, open 'E:\wfl1\­­save­dev'
+43 verbose stack     at Error (native)
+44 verbose cwd E:\wfl1
+45 error Windows_NT 6.1.7601
+46 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "­­save­dev" "gulp" "browser­sync"
+47 error node v5.1.0
+48 error npm  v3.3.12
+49 error path E:\wfl1\­­save­dev
+50 error code ENOENT
+51 error errno -4058
+52 error syscall open
+53 error enoent ENOENT: no such file or directory, open 'E:\wfl1\­­save­dev'
+53 error enoent This is most likely not a problem with npm itself
+53 error enoent and is related to npm not being able to find a file.
+54 verbose exit [ -4058, true ]
